@@ -1,23 +1,3 @@
-
-'''
-*****************************************************************************************
-*
-*        		===============================================
-*           		Rapid Rescuer (RR) Theme (eYRC 2019-20)
-*        		===============================================
-*
-*  This script is to implement Task 1A of Rapid Rescuer (RR) Theme (eYRC 2019-20).
-*  
-*  This software is made available on an "AS IS WHERE IS BASIS".
-*  Licensee/end user indemnifies and will keep e-Yantra indemnified from
-*  any and all claim(s) that emanate from the use of the Software or 
-*  breach of the terms of this agreement.
-*  
-*  e-Yantra - An MHRD project under National Mission on Education using ICT (NMEICT)
-*
-*****************************************************************************************
-'''
-
 # Author List:		Om Rastogi
 # Filename:			finder.py
 # Functions:		readImage, solveMaze, blockwork
@@ -36,6 +16,7 @@ import image_enhancer
 
 
 # Maze images in mazes folder have cell size of 20 pixels
+# In my case I was able to get a fixes size for cells, for other cases one may have to do this dynamically
 CELL_SIZE = 20
 
 
